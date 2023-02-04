@@ -1,4 +1,3 @@
-
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         s_rev = s[::-1]
@@ -10,5 +9,6 @@ class Solution:
                 s_end = s_rev[:i] + s_rev[i+1:]
                 print(s_front,s_end)
                 return s_front == s_front[::-1] or s_end == s_end[::-1]
+      
                 
 
